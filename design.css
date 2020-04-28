@@ -32,17 +32,38 @@
   position: relative;
   left: 8%;
 }
-.video-images {
+.video_sidebar {
   position: absolute;
   right: 3%;
   width: 450px;
   top: 70px;
 }
-.video-images img {
+.video_sidebar img {
   width: 200px;
+  margin-right: 7px;
 }
-.video-images h1 {
-  font-size: 1.4rem;
+.video_sidebar h1 {
+  font-size: medium;
   line-height: 1.6rem;
   font-weight: bold;
+  top: 0%;
+  margin-bottom: -5px;
+}
+
+.video_sidebar article {
+  display: flex;
+  margin-bottom: 10px;
+}
+.video_sidebar p {
+  font-size: x-small;
+  margin-bottom: -5px;
+}
+.video_sidebar section {
+  position: relative;
+  top: 0%;
+  margin-top: -10px;
+}
+
+.video_description {
+  width: 60%;
 }
