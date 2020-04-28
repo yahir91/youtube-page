@@ -1,0 +1,19 @@
+#navMenu {
+  width: 2%;
+  height: auto;
+}
+#youtubeLogo {
+  object-fit: cover;
+  width: 20%;
+  margin-bottom: -42px;
+}
+
+#searchBar {
+  position: relative;
+  bottom: 5px;
+}
+#searchButton {
+  width: 4%;
+  position: relative;
+  bottom: 5px;
+}
