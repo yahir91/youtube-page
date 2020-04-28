@@ -1,6 +1,7 @@
 .navbar {
   width: 100%;
   height: 50px;
+  position: relative;
   /* background-color: black; */
 }
 .navbar img {
@@ -26,4 +27,22 @@
 }
 .right_nav img {
   margin-left: 15px;
+}
+.video {
+  position: relative;
+  left: 8%;
+}
+.video-images {
+  position: absolute;
+  right: 3%;
+  width: 450px;
+  top: 70px;
+}
+.video-images img {
+  width: 200px;
+}
+.video-images h1 {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-weight: bold;
 }
