@@ -64,6 +64,32 @@
   margin-top: -10px;
 }
 
-.video_description {
-  width: 60%;
+.video_details {
+  width: 70%;
+}
+.video_details img {
+  width: 30px;
+  height: 15px;
+}margin-bottom: -25px;
+
+.video_details section {
+  height: 100px;
+  background-color: rgb(110, 75, 75);
+}
+.right_details {
+  display: flex;
+}
+.right_text{
+  position: relative
+  right: 0%;
+}
+.time{
+  margin-right: 500px;
+  width:500px
+}
+.likes {
+  position: relative;
+  bottom: 0%;
+  margin-bottom: -20px;
+  padding-top: 20px;
 }
