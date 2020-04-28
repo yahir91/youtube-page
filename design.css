@@ -1,47 +1,29 @@
-#left_nav {
-  display: flex;
-  flex-direction: row;
+.navbar {
+  width: 100%;
+  height: 50px;
+  /* background-color: black; */
 }
-#navMenu {
-  width: 2%;
-  height: auto;
-}
-#youtubeLogo {
-  object-fit: cover;
-  width: 15%;
-  margin-bottom: -80px;
-}
-#center_nav {
-  display: flex;
-  flex-direction: row;
-}
-#searchBar {
-  position: relative;
-  bottom: 5px;
-}
-#searchButton {
-  width: 2%;
-  height: 5%;
-  position: relative;
-  bottom: 5px;
+.navbar img {
+  height: 30px;
 }
 
 #searchItem {
-  width: 5%;
+  height: 10px;
 }
-#right_nav {
-  display: flex;
-  flex-direction: row;
+
+.left_nav {
+  float: left;
 }
-#video_icon {
-  padding: 5px;
-  width: 4%;
+
+.center_nav {
   position: relative;
-  background-color: rgb(213, 218, 219);
-  border-radius: 100px;
-  display: inline-block;
+  left: 35%;
 }
-#appIcon {
-  width: 2%;
-  display: inline-block;
+.navbar .right_nav {
+  position: absolute;
+  right: 1%;
+  top: 2%;
+}
+.right_nav img {
+  margin-left: 15px;
 }
