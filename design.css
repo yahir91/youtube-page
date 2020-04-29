@@ -1,3 +1,4 @@
+/* Nav Bar CSS */
 .navbar {
   width: 100%;
   height: 50px;
@@ -21,6 +22,7 @@
 .left_nav {
   /* background-color: tomato; */
   text-align: left;
+  margin: 10px 0px 0px 10px;
 }
 
 .center_nav {
@@ -30,21 +32,28 @@
 
 .center_nav button {
   position: relative;
-  top: 9.5px;
+  top: 8px;
 }
 
 .right_nav {
   /* background-color: violet; */
   position: relative;
   text-align: right;
+  margin: 10px 10px 0px 0px;
 }
 .right_nav img {
   margin-left: 15px;
 }
+
+/* Video CSS */
+
 .video {
   position: relative;
   left: 8%;
 }
+
+/* Video SideBar CSS */
+
 .video_sidebar {
   position: absolute;
   right: 3%;
@@ -96,6 +105,8 @@
   top: 0%;
   margin-top: -10px;
 }
+
+/* Video Details CSS */
 
 .video_details {
   margin-left: 143px;
@@ -209,6 +220,8 @@
   margin-left: -8px;
   margin-top: -2px;
 }
+
+/* Media Query for Side Bar */
 
 @media only screen and (max-width: 1790px) {
   .video_sidebar {
