@@ -8,21 +8,35 @@
 }
 
 #searchItem {
-  height: 10px;
+  height: 30px;
+}
+
+.navbar div {
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* background-color: yellow; */
 }
 
 .left_nav {
-  float: left;
+  /* background-color: tomato; */
+  text-align: left;
 }
 
 .center_nav {
-  position: relative;
-  left: 35%;
+  /* background-color: teal; */
+  text-align: center;
 }
-.navbar .right_nav {
-  position: absolute;
-  right: 1%;
-  top: 2%;
+
+.center_nav button {
+  position: relative;
+  top: 9.5px;
+}
+
+.right_nav {
+  /* background-color: violet; */
+  position: relative;
+  text-align: right;
 }
 .right_nav img {
   margin-left: 15px;
@@ -37,6 +51,19 @@
   width: 450px;
   top: 70px;
 }
+
+.video_sidebar .autoplay {
+  display: flex;
+  /* background-color: yellowgreen; */
+}
+
+.autoplay_icon {
+  flex-grow: 1;
+  text-align: right;
+  /* background-color: yellow; */
+  margin-top: 12px;
+}
+
 .video_sidebar img {
   width: 200px;
   margin-right: 7px;
@@ -56,6 +83,13 @@
 .video_sidebar p {
   font-size: x-small;
   margin-bottom: -5px;
+}
+.video_sidebar .autoplay p {
+  flex-grow: 1;
+  text-align: left;
+  font-size: medium;
+  /* background-color: violet; */
+  margin-bottom: 5px;
 }
 .video_sidebar section {
   position: relative;
@@ -80,7 +114,6 @@
   background-color: white;
   border: none;
   margin-bottom: 10px;
-  text-align: ;
 }
 .right_details button img {
   justify-self: center;
@@ -102,37 +135,23 @@
   max-width: 1500px;
   /* background-color: darkgreen; */
 }
-/* .right_details .box {
-} */
+
 .one {
   flex: 5;
 }
-.two {
+.icons {
   padding-top: 20px;
   margin-left: 10px;
 }
-.three {
-  padding-top: 20px;
-  margin-left: 10px;
-}
-.four {
-  padding-top: 20px;
-  margin-left: 10px;
-}
-.five {
+
+.words {
   padding-top: 20px;
 }
-/* .six {
-} */
-.seven {
-  padding-top: 20px;
-}
+
 .eight {
   flex: 0;
 }
-.nine {
-  padding-top: 20px;
-}
+
 .box {
   margin-left: 10px;
 }
@@ -173,4 +192,28 @@
   margin-left: 230px;
   width: 600px;
   height: 70px;
+}
+
+.sub_icon button {
+  position: relative;
+  top: 60%;
+  width: 250px;
+  height: 50px;
+  border: none;
+  background-color: white;
+}
+
+.sub_icon img {
+  height: 50px;
+  width: 250px;
+  margin-left: -8px;
+  margin-top: -2px;
+}
+
+@media only screen and (max-width: 1790px) {
+  .video_sidebar {
+    position: relative;
+    bottom: 0%;
+    margin-left: 200px;
+  }
 }
