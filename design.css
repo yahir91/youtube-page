@@ -17,17 +17,14 @@
   flex-grow: 1;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  /* background-color: yellow; */
 }
 
 .left_nav {
-  /* background-color: tomato; */
   text-align: left;
   margin: 10px 0px 0px 10px;
 }
 
 .center_nav {
-  /* background-color: teal; */
   text-align: center;
 }
 
@@ -37,7 +34,6 @@
 }
 
 .right_nav {
-  /* background-color: violet; */
   position: relative;
   text-align: right;
   margin: 10px 10px 0px 0px;
@@ -68,13 +64,12 @@
 
 .video_sidebar .autoplay {
   display: flex;
-  /* background-color: yellowgreen; */
 }
 
 .autoplay_icon {
   flex-grow: 1;
   text-align: right;
-  /* background-color: yellow; */
+
   margin-top: 12px;
 }
 
@@ -102,7 +97,7 @@
   flex-grow: 1;
   text-align: left;
   font-size: medium;
-  /* background-color: violet; */
+
   margin-bottom: 5px;
 }
 .video_sidebar section {
@@ -116,7 +111,6 @@
 .video_details {
   margin-left: 143px;
   width: 60%;
-  /* background-color: chartreuse; */
 }
 .video_details img {
   width: 30px;
@@ -137,8 +131,6 @@
 
 .video_details section {
   height: 70px;
-
-  /* background-color: rgb(110, 75, 75); */
 }
 .video_details section h1 {
   margin-bottom: 0px;
@@ -149,7 +141,6 @@
 .wrapper {
   height: 70px;
   max-width: 1500px;
-  /* background-color: darkgreen; */
 }
 
 .one {
@@ -172,11 +163,7 @@
   margin-left: 10px;
 }
 
-.video_subscribe {
-}
-
 .sub_container {
-  /* background-color: cadetblue; */
   display: flex;
   flex-wrap: nowrap;
   margin-left: 143px;
@@ -191,12 +178,11 @@
   margin-top: -65px;
   flex-grow: 1;
   text-align: right;
-  /* background-color: crimson; */
 }
 
 .video_subscribe .channel_name_subs {
   text-align: left;
-  /* background-color: coral; */
+
   flex-grow: 50;
   margin-top: -10px;
 }
@@ -237,12 +223,11 @@
   .wrapper {
     height: 70px;
     min-width: 700px;
-    /* background-color: darkgreen; */
   }
   .video_details {
     margin-left: 143px;
     width: 60%;
-    /* background-color: chartreuse; */
+
     min-width: 800px;
   }
   .video_subscribe {
