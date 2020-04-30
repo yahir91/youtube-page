@@ -3,6 +3,7 @@
   width: 100%;
   height: 50px;
   display: flex;
+  min-width: 1100px;
 }
 .navbar img {
   height: 30px;
@@ -48,8 +49,11 @@
 /* Video CSS */
 
 .video {
-  position: relative;
-  left: 8%;
+  padding-top: 50px;
+  display: block;
+  margin-left: 150px;
+  width: 60%;
+  height: 30em;
 }
 
 /* Video SideBar CSS */
@@ -57,8 +61,9 @@
 .video_sidebar {
   position: absolute;
   right: 3%;
-  width: 450px;
+  width: 25%;
   top: 70px;
+  min-width: 370px;
 }
 
 .video_sidebar .autoplay {
@@ -110,7 +115,7 @@
 
 .video_details {
   margin-left: 143px;
-  width: 1100px;
+  width: 60%;
   /* background-color: chartreuse; */
 }
 .video_details img {
@@ -168,15 +173,14 @@
 }
 
 .video_subscribe {
-  max-width: 1500px;
-  flex-grow: 10;
 }
 
 .sub_container {
   /* background-color: cadetblue; */
   display: flex;
+  flex-wrap: nowrap;
   margin-left: 143px;
-  width: 1100px;
+  width: 60.3%;
   height: 70px;
 }
 
@@ -223,10 +227,33 @@
 
 /* Media Query for Side Bar */
 
-@media only screen and (max-width: 1790px) {
+@media only screen and (max-width: 1400px) {
   .video_sidebar {
     position: relative;
     bottom: 0%;
     margin-left: 200px;
+    min-width: 450px;
+  }
+  .wrapper {
+    height: 70px;
+    min-width: 700px;
+    /* background-color: darkgreen; */
+  }
+  .video_details {
+    margin-left: 143px;
+    width: 60%;
+    /* background-color: chartreuse; */
+    min-width: 800px;
+  }
+  .video_subscribe {
+    min-width: 1335px;
+  }
+  .video {
+    padding-top: 50px;
+    display: block;
+    margin-left: 150px;
+    width: 60%;
+    height: 30em;
+    min-width: 800px;
   }
 }
