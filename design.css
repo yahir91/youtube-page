@@ -43,8 +43,6 @@
   width: 80px;
   background-color: #f8f8f8;
 }
-.center_nav img {
-}
 
 .right_nav {
   position: relative;
@@ -90,7 +88,7 @@
   width: 200px;
   margin-right: 7px;
 }
-.video_sidebar h1 {
+.video_sidebar h3 {
   font-size: medium;
   line-height: 1.6rem;
   font-weight: bold;
@@ -98,7 +96,7 @@
   margin-bottom: -5px;
 }
 
-.video_sidebar article {
+.video_sidebar aside {
   display: flex;
   margin-bottom: 10px;
 }
@@ -145,7 +143,7 @@
 .video_details section {
   height: 70px;
 }
-.video_details section h1 {
+.video_details section h3 {
   margin-bottom: 0px;
 }
 .right_details {
@@ -199,7 +197,7 @@
   flex-grow: 50;
   margin-top: -10px;
 }
-.channel_name_subs h1 {
+.channel_name_subs h3 {
   margin-bottom: -15px;
 }
 .video_text {
