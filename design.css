@@ -28,9 +28,22 @@
   text-align: center;
 }
 
+.center_nav input {
+  width: 600px;
+  height: 30px;
+  margin-right: -4px;
+  margin-top: px;
+}
+
 .center_nav button {
   position: relative;
-  top: 8px;
+  top: 9.4px;
+  margin-left: 0;
+  height: 37px;
+  width: 80px;
+  background-color: #f8f8f8;
+}
+.center_nav img {
 }
 
 .right_nav {
@@ -47,7 +60,7 @@
 .video {
   padding-top: 50px;
   display: block;
-  margin-left: 150px;
+  margin-left: 100px;
   width: 60%;
   height: 30em;
 }
@@ -109,7 +122,7 @@
 /* Video Details CSS */
 
 .video_details {
-  margin-left: 143px;
+  margin-left: 100px;
   width: 60%;
 }
 .video_details img {
@@ -166,7 +179,7 @@
 .sub_container {
   display: flex;
   flex-wrap: nowrap;
-  margin-left: 143px;
+  margin-left: 100px;
   width: 60.3%;
   height: 70px;
 }
@@ -190,7 +203,7 @@
   margin-bottom: -15px;
 }
 .video_text {
-  margin-left: 230px;
+  margin-left: 185px;
   width: 600px;
   height: 70px;
 }
