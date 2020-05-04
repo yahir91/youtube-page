@@ -1,0 +1,255 @@
+/* Nav Bar CSS */
+.navbar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  min-width: 1100px;
+}
+.navbar img {
+  height: 30px;
+}
+
+#searchItem {
+  height: 30px;
+}
+
+.navbar div {
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.left_nav {
+  text-align: left;
+  margin: 10px 0px 0px 10px;
+}
+
+.center_nav {
+  text-align: center;
+}
+
+.center_nav input {
+  width: 600px;
+  height: 30px;
+  margin-right: -4px;
+  margin-top: px;
+}
+
+.center_nav button {
+  position: relative;
+  top: 9.4px;
+  margin-left: 0;
+  height: 37px;
+  width: 80px;
+  background-color: #f8f8f8;
+}
+
+.right_nav {
+  position: relative;
+  text-align: right;
+  margin: 10px 10px 0px 0px;
+}
+.right_nav img {
+  margin-left: 15px;
+}
+
+/* Video CSS */
+
+.video {
+  padding-top: 50px;
+  display: block;
+  margin-left: 100px;
+  width: 60%;
+  height: 30em;
+}
+
+/* Video SideBar CSS */
+
+.video_sidebar {
+  position: absolute;
+  right: 3%;
+  width: 25%;
+  top: 70px;
+  min-width: 370px;
+}
+
+.video_sidebar .autoplay {
+  display: flex;
+}
+
+.autoplay_icon {
+  flex-grow: 1;
+  text-align: right;
+
+  margin-top: 12px;
+}
+
+.video_sidebar img {
+  width: 200px;
+  margin-right: 7px;
+}
+.video_sidebar h3 {
+  font-size: medium;
+  line-height: 1.6rem;
+  font-weight: bold;
+  top: 0%;
+  margin-bottom: -5px;
+}
+
+.video_sidebar aside {
+  display: flex;
+  margin-bottom: 10px;
+}
+.video_sidebar p {
+  font-size: x-small;
+  margin-bottom: -5px;
+}
+.video_sidebar .autoplay p {
+  flex-grow: 1;
+  text-align: left;
+  font-size: medium;
+
+  margin-bottom: 5px;
+}
+.video_sidebar section {
+  position: relative;
+  top: 0%;
+  margin-top: -10px;
+}
+
+/* Video Details CSS */
+
+.video_details {
+  margin-left: 100px;
+  width: 60%;
+}
+.video_details img {
+  width: 30px;
+  height: 15px;
+}
+.right_details button {
+  z-index: 2;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  border: none;
+  margin-bottom: 10px;
+}
+.right_details button img {
+  justify-self: center;
+}
+
+.video_details section {
+  height: 70px;
+}
+.video_details section h3 {
+  margin-bottom: 0px;
+}
+.right_details {
+  display: flex;
+}
+.wrapper {
+  height: 70px;
+  max-width: 1500px;
+}
+
+.one {
+  flex: 5;
+}
+.icons {
+  padding-top: 20px;
+  margin-left: 10px;
+}
+
+.words {
+  padding-top: 20px;
+}
+
+.eight {
+  flex: 0;
+}
+
+.box {
+  margin-left: 10px;
+}
+
+.sub_container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 100px;
+  width: 60.3%;
+  height: 70px;
+}
+
+.sub_container div {
+  flex-grow: 1;
+}
+.video_subscribe .sub_icon {
+  margin-top: -65px;
+  flex-grow: 1;
+  text-align: right;
+}
+
+.video_subscribe .channel_name_subs {
+  text-align: left;
+
+  flex-grow: 50;
+  margin-top: -10px;
+}
+.channel_name_subs h3 {
+  margin-bottom: -15px;
+}
+.video_text {
+  margin-left: 185px;
+  width: 600px;
+  height: 70px;
+}
+
+.sub_icon button {
+  position: relative;
+  top: 60%;
+  width: 250px;
+  height: 50px;
+  border: none;
+  background-color: white;
+}
+
+.sub_icon img {
+  height: 50px;
+  width: 250px;
+  margin-left: -8px;
+  margin-top: -2px;
+}
+
+/* Media Query for Side Bar */
+
+@media only screen and (max-width: 1400px) {
+  .video_sidebar {
+    position: relative;
+    bottom: 0%;
+    margin-left: 200px;
+    min-width: 450px;
+  }
+  .wrapper {
+    height: 70px;
+    min-width: 700px;
+  }
+  .video_details {
+    margin-left: 143px;
+    width: 60%;
+
+    min-width: 800px;
+  }
+  .video_subscribe {
+    min-width: 1335px;
+  }
+  .video {
+    padding-top: 50px;
+    display: block;
+    margin-left: 150px;
+    width: 60%;
+    height: 30em;
+    min-width: 800px;
+  }
+}
